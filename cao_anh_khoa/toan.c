@@ -29,10 +29,10 @@ int chia(int a, int b)
 }
 void main1()
 {
-	cong(1, 2);
-	tru(1, 2);
-	nhan(1, 2);
-	chia(1, 2);
-	printf("%d%d%d%d", cong, tru, nhan, chia);
+	int x=cong(1, 2);
+	int y=tru(1, 2);
+	int z=nhan(1, 2);
+	int w=chia(1, 2);
+	printf("%d,%d,%d,%d", x, y, z, w);
 	
 }
