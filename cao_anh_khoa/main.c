@@ -1,12 +1,16 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 void main()
 {
-	int i = 1;
-	char str[] = "hello";
+	int i = 0;
+	char str[] = "HellowHJFJ";
 	while (str[i] != 0)
 	{
-		i++;
+		if (str[i] > 65 && i < 90)
+		{
+			i++;
+		}
+
 	}
 	printf("so y tu trong chuoi :%d", i);
 }

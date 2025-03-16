@@ -31,7 +31,7 @@ int chia(int a, int b)
 void main()
 {
 	int x = 1;
-	int y = 2
+	int y = 2;
 	printf("%d", cong(x,y));
 	printf("%d", tru(x, y));
 	printf("%d", nhan(x, y));
