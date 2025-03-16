@@ -6,7 +6,7 @@ void main()
 	char str[] = "HellowHJFJ";
 	while (str[i] != 0)
 	{
-		if (str[i] > 65 && i < 90)
+		if (str[i] > 65 && str[i] < 90)
 		{
 			i++;
 		}
