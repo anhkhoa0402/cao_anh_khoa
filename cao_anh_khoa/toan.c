@@ -20,7 +20,7 @@ int nhan(int a, int b)
 	int nhan = 0;
 	nhan = a * b;
 	return nhan;
-		
+
 }
 int chia(int a, int b)
 {
