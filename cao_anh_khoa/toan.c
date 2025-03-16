@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<stdio.h>
 #include<math.h>
 int cong(int a, int b)
@@ -27,12 +28,12 @@ int chia(int a, int b)
 	chia = a / b;
 	return chia;
 }
-void main1()
+void main()
 {
-	int x=cong(1, 2);
-	int y=tru(1, 2);
-	int z=nhan(1, 2);
-	int w=chia(1, 2);
-	printf("%d,%d,%d,%d", x, y, z, w);
-	
+	int x = 1;
+	int y = 2
+	printf("%d", cong(x,y));
+	printf("%d", tru(x, y));
+	printf("%d", nhan(x, y));
+	printf("%d", chia(x, y));
 }
